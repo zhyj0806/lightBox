@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>h5标签</title>
+	<link rel="stylesheet" href="css/css.css" />
+	<link rel="stylesheet" href="css/css3.css" />
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<figure class="js-lightbox" data-role="lightbox" data-group="group-1" data-id='idname1-1' data-caption="标题1" data-source="images/1.jpg" src="images/1.jpg">
+		<img src="images/1.jpg" alt="" />
+		<figcaption>
+			<h2>图片标题</h2>
+			<p>图片注释</p>
+			<p>图片注释</p>
+			<p>图片注释</p>
+		</figcaption>
+	</figure>
+	<figure class="js-lightbox" data-role="lightbox" data-group="group-1" data-id='idname1-2' data-caption="标题2" data-source="images/2.jpg" src="images/2.jpg" >
+		<img src="images/2.jpg" alt="" />
+		<figcaption>
+			<h2>图片标题</h2>
+			<p>图片注释</p>
+			<div></div>
+		</figcaption>
+	</figure>
+	<figure  class="js-lightbox" data-role="lightbox" data-group="group-1" data-id='idname1-3' data-caption="标题2" data-source="images/3.jpg" src="images/3.jpg" >
+		<img src="images/3.jpg" alt="" />
+		<figcaption>
+			<h2>图片标题</h2>
+			<p>图片注释</p>
+		</figcaption>
+	</figure>
+	<figure class="js-lightbox" data-role="lightbox" data-group="group-1" data-id='idname1-4' data-caption="标题4" data-source="images/4.jpg" src="images/4.jpg" >
+		<img src="images/4.jpg" alt="" />
+		<figcaption>
+			<h2>图片标题</h2>
+			<p>图片注释</p>
+			<div></div>
+		</figcaption>
+	</figure>
+	<script type="text/javascript">
+		$(function(){
+			var lightbox=new LightBox({
+				speed:'fast',
+				maskOpacity:.4
+			});
+		});
+	</script>
+</body>
+</html>
